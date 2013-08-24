@@ -5,6 +5,8 @@ Automatic export from [EyeTV][1] via [Turbo.264 HD Video Converter][2].
 
 The main usecase of this script is compression, burning in subtitles, and moving the resulting video file to a location that e.g. [Plex][3] monitors.
 
+With the following settings in Turbo.264 HD Video Converter, no transcoding is necessary when using Plex (via iOS) to stream to an Apple TV 3: `Apple TV HD 1080p 50% Subtitles High L4.0 CABAC`.
+
 This script is used to automate encoding of recordings from EyeTV. EyeTV has support for a number of event that can launch AppleScripts. When a recording finishes, EyeTV fires the RecordingDone event and starts the corresponding script. The script should be named `RecordingDone.scpt` and placed in `/Library/Application Support/EyeTV/Scripts/TriggeredScripts`. If some of the folders doesn't exist, you can just create them.
 
 When a recording is finised in EyeTV it will launch this script. The script sends the recording to Turbo.264 HD Video Converter which in turn encodes the recording as per the specified preset. When the encoding is done, the video file is moved to the desired location and deleted from EyeTV.
