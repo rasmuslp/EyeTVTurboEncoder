@@ -13,7 +13,15 @@ When a recording is finised in EyeTV it will launch this script. The script send
 
 Take a look at the script for further details. The properties in the script needs to be configured and the folders reference needs to be created.
 
-This was developed with EyeTV 3.6.1 and Turbo.264 HD Video Converter 1.2.1.
+## Turbo.264 from the Mac App Store vs Elgato
+This script assumes Turbo.264 is installed from the Mac App Store. If bought from elsewhere, the app references in the script needs to be changed to reflect the name of the .app bundle.
+
+# Compatibility
+
+This script was originally developed for EyeTV 3.6.1 and Turbo.264 HD Video Converter 1.2.1.
+
+It is tested on the latest versions: EyeTV 3.6.7 and Turbo.264 HD Video Conveter 1.2.3.
+
 
 [1]: http://www.elgato.com/en/eyetv/eyetv-3
 [2]: http://www.elgato.com/en/video/turbo-264-hd-software
